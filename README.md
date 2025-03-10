@@ -1,10 +1,10 @@
 # LangCalc - Multilingual Calculator
 
-A modern calculator application that supports multiple Indian languages, built with React.
+LangCalc is a modern calculator application supporting multiple Indian languages, built with React.
 
 ## Features
 
-- Support for 10 major Indian languages:
+- **Multilingual Support**: Supports 10 major Indian languages:
   - English
   - Hindi (हिंदी)
   - Bengali (বাংলা)
@@ -15,17 +15,18 @@ A modern calculator application that supports multiple Indian languages, built w
   - Marathi (मराठी)
   - Gujarati (ગુજરાતી)
   - Punjabi (ਪੰਜਾਬੀ)
-- Modern Material-UI design
-- Responsive layout
-- Basic arithmetic operations
-- Decimal point support
-- Error handling
+- **User-Friendly Interface**: Designed with Material-UI for a modern look and feel.
+- **Responsive Design**: Ensures compatibility across various devices.
+- **Core Functionalities**:
+  - Basic arithmetic operations
+  - Decimal point calculations
+  - Comprehensive error handling
 
 ## Tech Stack
 
-- React.js
-- Material-UI
-- i18next for internationalization
+- **Frontend**: React.js
+- **Styling**: Material-UI
+- **Internationalization**: i18next
 
 ## Getting Started
 
@@ -36,40 +37,34 @@ A modern calculator application that supports multiple Indian languages, built w
 
 ### Installation
 
-1. Clone the repository:
-```bash
-git clone https://github.com/Satishchoudhary94/LangCalculator.git
-cd LangCalculator
-```
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/Satishchoudhary94/LangCalculator.git
+   cd LangCalculator
+   ```
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+3. **Start the development server**:
+   ```bash
+   npm start
+   ```
+   The application will be accessible at `http://localhost:3000`.
 
-2. Install dependencies:
-```bash
-npm install
-```
+## Usage
 
-3. Start the development server:
-```bash
-npm start
-```
-
-4. Open your browser and navigate to:
-```
-http://localhost:3000
-```
-
-## Deployment
-
-The application is deployed using Vercel. You can deploy your own instance by:
-
-1. Fork this repository
-2. Go to [Vercel](https://vercel.com)
-3. Import your forked repository
-4. Deploy!
+Select your preferred language from the language switcher to interact with the calculator in that language. Perform basic arithmetic operations as needed.
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Contributions are welcome! Please fork the repository and create a new branch for any feature or bug fix. Submit a pull request with a clear description of your changes.
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details. 
+This project is licensed under the MIT License.
+
+## Acknowledgements
+
+Special thanks to the developers and contributors of React.js, Material-UI, and i18next for their excellent tools and libraries.
+
