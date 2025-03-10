@@ -1,6 +1,6 @@
 # LangCalc - Multilingual Calculator
 
-A modern calculator application that supports multiple Indian languages, built with the MERN stack.
+A modern calculator application that supports multiple Indian languages, built with React.
 
 ## Features
 
@@ -23,21 +23,15 @@ A modern calculator application that supports multiple Indian languages, built w
 
 ## Tech Stack
 
-- Frontend:
-  - React.js
-  - Material-UI
-  - i18next for internationalization
-- Backend:
-  - Node.js
-  - Express.js
-  - MongoDB
+- React.js
+- Material-UI
+- i18next for internationalization
 
 ## Getting Started
 
 ### Prerequisites
 
 - Node.js (v14 or higher)
-- MongoDB
 - npm or yarn
 
 ### Installation
@@ -48,40 +42,29 @@ git clone https://github.com/Satishchoudhary94/LangCalculator.git
 cd LangCalculator
 ```
 
-2. Install server dependencies:
+2. Install dependencies:
 ```bash
 npm install
 ```
 
-3. Install client dependencies:
-```bash
-cd client
-npm install
-```
-
-4. Create a .env file in the root directory:
-```
-MONGODB_URI=your_mongodb_connection_string
-PORT=5000
-```
-
-### Running the Application
-
-1. Start the server:
+3. Start the development server:
 ```bash
 npm start
 ```
 
-2. Start the client (in a new terminal):
-```bash
-cd client
-npm start
-```
-
-3. Open your browser and navigate to:
+4. Open your browser and navigate to:
 ```
 http://localhost:3000
 ```
+
+## Deployment
+
+The application is deployed using Vercel. You can deploy your own instance by:
+
+1. Fork this repository
+2. Go to [Vercel](https://vercel.com)
+3. Import your forked repository
+4. Deploy!
 
 ## Contributing
 
